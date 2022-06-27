@@ -1,0 +1,250 @@
+0000.001 (0) Opened log file at time: Sat, 18 Jun 2022 21:18:38 +0000 on http://localhost:8888/wordpress
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.0 PHP: 7.4.2 (apache2handler, Darwin admins-iMac.local 20.4.0 Darwin Kernel Version 20.4.0: Thu Apr 22 21:46:47 PDT 2021; root:xnu-7195.101.2~1/RELEASE_X86_64 x86_64) MySQL: 5.7.26 (max packet size=4194304) WPLANG: fr_FR Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 85.6M | 7M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 154523.6 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.011 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.020 (0) Semaphore (f, wp_options) being initialised
+0000.024 (0) Requesting semaphore lock (f) (apparently not via scheduler)
+0000.026 (0) Set semaphore last lock (f) time to 2022-06-18 21:18:38
+0000.027 (0) Semaphore lock (f) complete
+0000.031 (0) Backup run: resumption=0, nonce=5b071d52fcbc, file_nonce=5b071d52fcbc begun at=1655587118 (0s ago), job type=backup
+0000.033 (0) Scheduling a resumption (1) after 300 seconds (1655587418) in case this run gets aborted
+0000.057 (0) Checking if we have a zip executable available
+0000.060 (0) Testing: /usr/bin/zip
+0000.077 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.078 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.079 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.080 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.081 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.091 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.095 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.110 (0) Working binary zip found: /usr/bin/zip
+0000.113 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.114 (0) Creation of backups of directories: beginning
+0000.118 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.337 (0) Total entities for the zip file: 1370 directories, 7931 files (0 skipped as non-modified), 136.9 MB
+0001.349 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.360 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.369 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.378 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.386 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.393 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 7931 files batched, 571 (571) added so far); re-opening (prior size: 0 KB)
+0002.631 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: size is now: 11.10 MB
+0002.634 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.8 s, rate: 9198.8 KB/s)
+0002.637 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.7830009460449, normalised_time=2.782977378045, max_time=2.634437084198, data points known=1, old_max_bytes=26214400, new_max_bytes=56517311)
+0002.641 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 600 files added (on-disk size: 11365.9 KB)
+0002.649 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 700 files added (on-disk size: 11365.9 KB)
+0002.657 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 800 files added (on-disk size: 11365.9 KB)
+0002.666 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 900 files added (on-disk size: 11365.9 KB)
+0002.677 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1000 files added (on-disk size: 11365.9 KB)
+0002.686 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1100 files added (on-disk size: 11365.9 KB)
+0002.694 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1200 files added (on-disk size: 11365.9 KB)
+0002.702 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1300 files added (on-disk size: 11365.9 KB)
+0002.710 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1400 files added (on-disk size: 11365.9 KB)
+0002.719 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1500 files added (on-disk size: 11365.9 KB)
+0002.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.2 MB, 7931 files batched, 1001 (1572) added so far); re-opening (prior size: 11365.9 KB)
+0003.444 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: size is now: 14.30 MB
+0003.452 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1600 files added (on-disk size: 14690.7 KB)
+0003.460 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1700 files added (on-disk size: 14690.7 KB)
+0003.468 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1800 files added (on-disk size: 14690.7 KB)
+0003.478 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 1900 files added (on-disk size: 14690.7 KB)
+0003.489 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2000 files added (on-disk size: 14690.7 KB)
+0003.500 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2100 files added (on-disk size: 14690.7 KB)
+0003.511 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2200 files added (on-disk size: 14690.7 KB)
+0003.520 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2300 files added (on-disk size: 14690.7 KB)
+0003.530 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2400 files added (on-disk size: 14690.7 KB)
+0003.540 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2500 files added (on-disk size: 14690.7 KB)
+0003.546 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.3 MB, 7931 files batched, 1001 (2573) added so far); re-opening (prior size: 14690.7 KB)
+0004.485 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: size is now: 20.70 MB
+0004.492 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2600 files added (on-disk size: 21159.7 KB)
+0004.500 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2700 files added (on-disk size: 21159.7 KB)
+0004.509 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2800 files added (on-disk size: 21159.7 KB)
+0004.518 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 2900 files added (on-disk size: 21159.7 KB)
+0004.526 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3000 files added (on-disk size: 21159.7 KB)
+0004.535 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3100 files added (on-disk size: 21159.7 KB)
+0004.543 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3200 files added (on-disk size: 21159.7 KB)
+0004.553 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3300 files added (on-disk size: 21159.7 KB)
+0004.561 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3400 files added (on-disk size: 21159.7 KB)
+0004.569 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3500 files added (on-disk size: 21159.7 KB)
+0004.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32 MB, 7931 files batched, 1001 (3574) added so far); re-opening (prior size: 21159.7 KB)
+0006.412 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: size is now: 29.40 MB
+0006.420 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3600 files added (on-disk size: 30102.5 KB)
+0006.429 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3700 files added (on-disk size: 30102.5 KB)
+0006.437 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3800 files added (on-disk size: 30102.5 KB)
+0006.445 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 3900 files added (on-disk size: 30102.5 KB)
+0006.454 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4000 files added (on-disk size: 30102.5 KB)
+0006.463 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4100 files added (on-disk size: 30102.5 KB)
+0006.471 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4200 files added (on-disk size: 30102.5 KB)
+0006.480 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4300 files added (on-disk size: 30102.5 KB)
+0006.490 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4400 files added (on-disk size: 30102.5 KB)
+0006.500 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4500 files added (on-disk size: 30102.5 KB)
+0006.507 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.3 MB, 7931 files batched, 1001 (4575) added so far); re-opening (prior size: 30102.5 KB)
+0007.931 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: size is now: 35.30 MB
+0007.940 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4600 files added (on-disk size: 36193.8 KB)
+0007.951 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4700 files added (on-disk size: 36193.8 KB)
+0007.960 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4800 files added (on-disk size: 36193.8 KB)
+0007.968 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 4900 files added (on-disk size: 36193.8 KB)
+0007.977 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5000 files added (on-disk size: 36193.8 KB)
+0007.987 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5100 files added (on-disk size: 36193.8 KB)
+0007.995 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5200 files added (on-disk size: 36193.8 KB)
+0008.004 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5300 files added (on-disk size: 36193.8 KB)
+0008.012 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5400 files added (on-disk size: 36193.8 KB)
+0008.021 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5500 files added (on-disk size: 36193.8 KB)
+0008.029 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 7931 files batched, 1001 (5576) added so far); re-opening (prior size: 36193.8 KB)
+0009.074 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5600 files added (on-disk size: 42570.9 KB)
+0009.083 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5700 files added (on-disk size: 42570.9 KB)
+0009.092 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5800 files added (on-disk size: 42570.9 KB)
+0009.100 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 5900 files added (on-disk size: 42570.9 KB)
+0009.109 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6000 files added (on-disk size: 42570.9 KB)
+0009.117 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6100 files added (on-disk size: 42570.9 KB)
+0009.125 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6200 files added (on-disk size: 42570.9 KB)
+0009.134 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6300 files added (on-disk size: 42570.9 KB)
+0009.144 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6400 files added (on-disk size: 42570.9 KB)
+0009.153 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6500 files added (on-disk size: 42570.9 KB)
+0009.161 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.3 MB, 7931 files batched, 1001 (6577) added so far); re-opening (prior size: 42570.9 KB)
+0010.067 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6600 files added (on-disk size: 45724.4 KB)
+0010.076 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6700 files added (on-disk size: 45724.4 KB)
+0010.089 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6800 files added (on-disk size: 45724.4 KB)
+0010.098 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 6900 files added (on-disk size: 45724.4 KB)
+0010.107 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7000 files added (on-disk size: 45724.4 KB)
+0010.116 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7100 files added (on-disk size: 45724.4 KB)
+0010.127 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7200 files added (on-disk size: 45724.4 KB)
+0010.135 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7300 files added (on-disk size: 45724.4 KB)
+0010.143 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7400 files added (on-disk size: 45724.4 KB)
+0010.154 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7500 files added (on-disk size: 45724.4 KB)
+0010.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.2 MB, 7931 files batched, 1001 (7578) added so far); re-opening (prior size: 45724.4 KB)
+0011.079 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7600 files added (on-disk size: 47893.5 KB)
+0011.089 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7700 files added (on-disk size: 47893.5 KB)
+0011.098 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7800 files added (on-disk size: 47893.5 KB)
+0011.106 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.tmp: 7900 files added (on-disk size: 47893.5 KB)
+0012.050 (0) Creating zip file manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.list-temp.tmp)
+0012.160 (0) Successfully created zip file manifest (size: 622387)
+0013.519 (0) Created plugins zip (0) - 50098.5 KB in 13.4 s (3739.1 KB/s) (sha1: a87979aebd225ef73e544b3d9b05e6727d7ce20c, sha256: c1a398f47ba2df501543aa34f751977cd6f7b81e12e6fe63a5578d679f65ec3d)
+0013.523 (0) Beginning creation of dump of themes (split every: 400 MB)
+0013.632 (0) Total entities for the zip file: 293 directories, 671 files (0 skipped as non-modified), 22.9 MB
+0013.641 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.651 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0013.660 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0013.669 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0013.678 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0013.688 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.011 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.tmp: size is now: 6.40 MB
+0015.056 (0) Creating zip file manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.list-temp.tmp)
+0015.065 (0) Successfully created zip file manifest (size: 58018)
+0015.235 (0) Created themes zip (0) - 6604.6 KB in 1.7 s (3860.4 KB/s) (sha1: e96c4d12d5038cc1bf2e702ac1291b4dfe4b81c5, sha256: 67cb6f7147d34f2d2e961a52762a5cd276c24d8fcc8ba21ce8ef582be6e709c2)
+0015.239 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.240 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/wordpress/wp-content/uploads
+0015.242 (0) finding files: so-css: adding to list (1)
+0015.243 (0) finding files: 2022: adding to list (2)
+0015.244 (0) finding files: wpcf7_uploads: adding to list (3)
+0015.245 (0) finding files: ur-logs: adding to list (4)
+0015.246 (0) finding files: wpforms: adding to list (5)
+0015.247 (0) finding files: ultimatemember: adding to list (6)
+0015.248 (0) finding files: forminator: adding to list (7)
+0015.249 (0) finding files: elementor: adding to list (8)
+0015.249 (0) finding files: rsssl: adding to list (9)
+0015.250 (0) finding files: user_registration_uploads: adding to list (10)
+0015.251 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.281 (0) Total entities for the zip file: 20 directories, 196 files (0 skipped as non-modified), 11.9 MB
+0015.290 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.548 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip.tmp: size is now: 11.30 MB
+0015.562 (0) Creating zip file manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip.list-temp.tmp)
+0015.566 (0) Successfully created zip file manifest (size: 11661)
+0015.855 (0) Created uploads zip (0) - 11605.8 KB in 0.6 s (19287.1 KB/s) (sha1: 97c8875e681dfd21ca27cc7fb31e4c2e5ebc58bf, sha256: 89e627d0688762adb9e07a56b2fa2a567e707c5438ddfce33500c1caa5dab785)
+0015.859 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.860 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0015.861 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/wordpress/wp-content
+0015.862 (0) finding files: upgrade: skipping: excluded by options
+0015.863 (0) finding files: .DS_Store: adding to list (1)
+0015.864 (0) finding files: index.php: adding to list (2)
+0015.865 (0) finding files: cache: skipping: excluded by options
+0015.866 (0) finding files: plugins: skipping: this is the plugins directory
+0015.867 (0) finding files: uploads: skipping: this is the uploads directory
+0015.868 (0) finding files: updraft: skipping: this is the updraft directory
+0015.868 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0015.869 (0) finding files: languages: adding to list (3)
+0015.870 (0) finding files: themes: skipping: this is the themes directory
+0015.871 (0) finding files: mu-plugins: adding to list (4)
+0015.923 (0) Total entities for the zip file: 4 directories, 582 files (0 skipped as non-modified), 23.7 MB
+0015.933 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.942 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.951 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.959 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.968 (0) Zip: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0017.254 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.tmp: size is now: 6.40 MB
+0017.279 (0) Creating zip file manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.list-temp.tmp)
+0017.286 (0) Successfully created zip file manifest (size: 39390)
+0017.515 (0) Created others zip (0) - 6559.8 KB in 1.6 s (3996.1 KB/s) (sha1: 5da2ca3401f9883db2e5ef49b1c8e50d6fc74c27, sha256: c6be12ea4a014de69d67f219c0045965629b40a79bd5622801cd7f457deea595)
+0017.522 (0) Saving backup status to database (elements: 8)
+0017.525 (0) No database backup (wp) - not part of this run
+0017.527 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0017.528 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0017.529 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0017.530 (0) backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0017.531 (0) Saving backup history. Total backup size: 73.1 MB
+0017.534 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0017.538 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0017.541 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7ba48baabd96be9bb62fb0c7fd555fad)
+0020.482 (0) Google Drive: creating path: /UpdraftPlus
+0022.021 (0) Google Drive: quota usage: used=0 MB, total=15360 MB, available=15360 MB
+0022.029 (0) Google Drive: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1xU-Xi0EY_378h3jdwI3eVaqu7C10VO7n)
+0022.962 (0) Googledrive chunked upload: 2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 88.6 / 11)
+0023.478 (0) Googledrive chunked upload: 6.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 88.6 / 11)
+0024.189 (0) Googledrive chunked upload: 14.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 88.6 / 11)
+0025.557 (0) Googledrive chunked upload: 30.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 88.6 / 11)
+0028.589 (0) Googledrive chunked upload: 63.4 % uploaded (32505856)
+0031.191 (0) Googledrive chunked upload: 96.1 % uploaded (49283072)
+0032.440 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0032.444 (0) Google Drive: OK: Archive backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip uploaded in 10.41 seconds
+0032.445 (0) Recording as successfully uploaded: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip
+0032.451 (0) Deleting local file: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip: OK
+0032.452 (0) Deleting zip manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-plugins.zip.list.tmp)
+0032.712 (0) Google Drive: quota usage: used=48.9 MB, total=15360 MB, available=15311.1 MB
+0032.713 (0) Google Drive: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip: Attempting to upload to Google Drive (into folder id: 1xU-Xi0EY_378h3jdwI3eVaqu7C10VO7n)
+0033.387 (0) Googledrive chunked upload: 15.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 88.6 / 11)
+0033.902 (0) Googledrive chunked upload: 46.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 88.6 / 11)
+0035.554 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0035.558 (0) Google Drive: OK: Archive backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip uploaded in 2.84 seconds
+0035.559 (0) Recording as successfully uploaded: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip
+0035.562 (0) Deleting local file: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip: OK
+0035.563 (0) Deleting zip manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-themes.zip.list.tmp)
+0036.155 (0) Google Drive: quota usage: used=55.4 MB, total=15360 MB, available=15304.6 MB
+0036.162 (0) Google Drive: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1xU-Xi0EY_378h3jdwI3eVaqu7C10VO7n)
+0037.130 (0) Googledrive chunked upload: 8.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 88.6 / 11)
+0037.680 (0) Googledrive chunked upload: 26.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 88.6 / 11)
+0038.975 (0) Googledrive chunked upload: 61.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 88.6 / 11)
+0041.492 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0041.496 (0) Google Drive: OK: Archive backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip uploaded in 5.33 seconds
+0041.498 (0) Recording as successfully uploaded: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip
+0041.500 (0) Deleting local file: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip: OK
+0041.502 (0) Deleting zip manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-uploads.zip.list.tmp)
+0042.112 (0) Google Drive: quota usage: used=66.7 MB, total=15360 MB, available=15293.3 MB
+0042.113 (0) Google Drive: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip: Attempting to upload to Google Drive (into folder id: 1xU-Xi0EY_378h3jdwI3eVaqu7C10VO7n)
+0042.865 (0) Googledrive chunked upload: 15.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 88.6 / 11)
+0043.357 (0) Googledrive chunked upload: 46.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 88.6 / 11)
+0045.087 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0045.092 (0) Google Drive: OK: Archive backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip uploaded in 2.98 seconds
+0045.094 (0) Recording as successfully uploaded: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip
+0045.097 (0) Deleting local file: backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip: OK
+0045.098 (0) Deleting zip manifest (backup_2022-06-18-2318_STUDI_WORLD_5b071d52fcbc-others.zip.list.tmp)
+0045.102 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0045.104 (0) Number of backup sets in history: 1; groups (db): 1
+0045.105 (0) Examining (for databases) backup set with group_id=0, nonce=5b071d52fcbc, datestamp=1655587118 (Jun 18 2022 21:18:38)
+0045.106 (0) Number of backup sets in history: 1; groups (files): 1
+0045.107 (0) Examining (for files) backup set with nonce=5b071d52fcbc, datestamp=1655587118 (Jun 18 2022 21:18:38)
+0045.107 (0) This backup set is the backup set just made, so will not be deleted.
+0045.107 (0) This backup set is the backup set just made, so will not be deleted.
+0045.108 (0) This backup set is the backup set just made, so will not be deleted.
+0045.108 (0) This backup set is the backup set just made, so will not be deleted.
+0045.108 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0045.109 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0045.112 (0) Resume backup (5b071d52fcbc, 0): finish run
+0045.114 (0) Decremented the semaphore (f) by 1
+0045.116 (0) Semaphore (f) unlocked
+0045.116 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0045.120 (0) The backup apparently succeeded and is now complete
+0045.122 (0) Fetching RSS news feed
+0045.295 (0) Fetched RSS news feed; result is a: SimplePie
+0045.325 (0) Sending email ('Fichiers uniquement (la base de données n'était pas incluse dans cette sauvegarde planifiée) (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: jcdux...
+0045.340 (0) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+0045.341 (0) La sauvegarde a apparemment réussi et est maintenant terminée
